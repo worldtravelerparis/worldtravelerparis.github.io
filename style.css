@@ -1,0 +1,440 @@
+/**HOMEPAGE CSS**/
+/* Styles and fonts */
+
+#main {
+  width: 100%;
+  margin: auto;
+}
+
+h1 {
+    font-family: 'Abril Fatface';
+    color: red;
+}
+
+h3 {
+    font-family: 'EB Garamond', serif;
+    color: midnightblue;
+}
+
+img {
+    width: 100%;
+    }
+
+/* Other inputs & styles */
+
+a {
+    color: white;
+}
+
+li{
+    text-decoration: none;
+    list-style-type: none;
+ }
+
+
+/* Head Parent */
+
+/* .headparentfy {
+    display: flex;
+    justify-content: space-between;
+} 
+*/
+
+/* Site header */
+
+.siteheaderfy {
+    display: flex;
+    justify-content: space-between;
+}
+
+.accountfy {
+    font-family: 'EB Garamond', serif;
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    padding-left: 85%;
+}
+
+.accountfy ul {
+    display: flex;
+    justify-content:space-between; 
+}
+
+.accountfy a {
+    list-style-type: none;
+    text-decoration: none;
+    color: blue;
+}
+
+/* Hero or Title style */
+
+.titlefy {
+    text-align: center;
+    font-family: 'Abril Fatface';
+    color: red;
+}
+
+/* Navigation begins here */
+
+.navfy {
+    background-color: midnightblue;
+    font-family: 'EB Garamond', serif;
+    }
+
+.navfy a {
+    text-decoration: none;
+}
+
+.navfy ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0%;
+    padding: 1% 0% 1% 0%;
+}
+
+/* Page content style */
+ 
+.pagecontentfy {
+    width: 80%;
+    margin: auto;
+   }
+
+.aboutparisfy {
+    border-bottom: 1px midnightblue solid;
+    padding: 20px; 
+    margin: 30px;
+}
+    
+
+ .stayfy { 
+    border-bottom: 1px midnightblue solid;
+    padding: 20px; 
+    margin: 30px;
+}
+
+
+.explorefy {
+    border-bottom: 1px midnightblue solid;
+    padding: 20px;
+    margin: 30px;
+}
+    
+/* Form Entry */
+
+
+.signupfy {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    padding-bottom: 30px;
+    
+}
+
+.input {
+    width: 60%;
+    height: auto;
+}
+
+/* Footer last */
+
+.footerfy {
+    background-color: midnightblue;
+    color: white;
+    font-family: 'EB Garamond', serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+
+.footerfy a {
+    text-decoration: none;
+}
+
+/* hovered items */
+
+a:hover {
+  color: red;
+}
+
+
+
+/**HOMEPAGE CSS END**/
+
+
+
+
+/**VISIT PARIS PAGE**/
+div {
+    
+    padding: 2%;
+}
+
+.headereb {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'EB Garamond', serif;
+}
+
+.heading h1 {
+    text-align: center; 
+    font-family: 'EB Garamond', serif;
+    color: white;
+}
+
+.heading {
+    background-color: royalblue;
+}
+
+
+.imageparis{
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    
+    
+        
+    
+}
+
+.subheader {
+    display: flex;
+    justify-content:space-around;
+    margin: 0px;
+    font-family: 'EB Garamond', serif;
+    
+}
+
+.naveb {
+    display: flex;
+    justify-content: space-between;
+    hyphens: auto;
+    color: black;
+    text-decoration: none;
+    
+}
+
+
+.parenteb {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+    text-align: center;
+}
+
+.peb {
+    text-align: center;
+    
+}
+
+
+
+.naveb ul {
+   list-style-type: none;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex: 5;
+    font-family: 'Abril Fatface', cursive;
+}
+
+
+
+
+.cav input {
+    height: 20px;
+
+}
+
+.parentebtwo h1{
+    display: flex;
+    justify-content: center;
+}    
+
+
+.parentebtwo p {
+    text-align: left;
+    
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+
+.footernavrm {
+    border: 2px solid navy;
+    padding: 0% 1% 0% 1%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #0d0d40;
+    font-family: 'EB Garamond' , serif;
+    color: #fffef4;
+    
+}
+
+
+.footernavrm a {
+    font-family: 'EB Garamond' , serif;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.footernavrm a:hover {
+    color: red;
+}
+
+/**VISIT PARIS PAGE END**/
+
+
+
+/**WHAT TO DO PAGE**/
+body {
+    margin: 0%;
+}
+
+.siteheadersrm {
+    display: flex;
+    padding: 2% 1% 2% 1%;
+}
+
+
+.brandnamerm {
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 20px;
+    color: #e60017;
+}
+
+.sitenamerm {
+    text-align: right;
+    flex: 1;
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 19px;
+    color: #e60017;
+}
+
+
+
+.navrm {
+    background-color: #0d0d40;
+    padding: 1% 0% 1% 0%;
+}
+
+
+.navrm ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+
+.navrm a {
+    font-family: 'EB Garamond' , sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fffef4;
+}
+
+
+.navrm a:hover {
+    color: #e60017;
+}
+
+
+.bannerherorm {
+    background-image: url(images/riverseine.jpg);
+    background-size: cover;
+    padding: 20%;
+    border-bottom: 16px solid #0d0d40;
+    font-family: 'Abril Fatface' , serif;
+    font-size: 17px;
+    text-align: center;
+}
+
+.bannerherorm h1 {
+    color: #0d0d40;
+}
+
+
+
+
+.bodyrm img {
+    width: 100%;
+    padding: 0px;
+
+}
+
+.pagecontents1rm {
+    display: flex;
+    border: none;
+  
+}
+
+.eatrm, .sightseerm, .shoprm, .nightliferm {
+    width: 100%;
+    font-family: 'EB Garamond' , serif;
+    color: #0d0d40;
+    padding: 1% 1% 1% 1%;
+}
+
+
+.eatrm, .sightseerm {
+    margin-top: 2%;
+}
+
+.shoprm, .nightliferm {
+    padding-bottom: 1%;
+}
+
+
+.pagecontents2rm {
+    display: flex;
+    border: none;
+    flex: auto;
+}
+
+
+.pagecontents1rm h2, .pagecontents2rm h2 {
+    text-align: center;
+    text-decoration: underline; 
+    text-decoration-color: #0d0d40;
+
+}
+
+
+.eatrm p, .sightseerm p, .shoprm p, .nightliferm p {
+    text-align: center;
+}
+
+
+.footernavrm {
+    border: 2px solid navy;
+    padding: 0% 1% 0% 1%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #0d0d40;
+    font-family: 'EB Garamond' , serif;
+    color: #fffef4;
+    
+}
+
+
+.footernavrm a {
+    font-family: 'EB Garamond' , serif;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.footernavrm a:hover {
+    color: red;
+}
+/**WHAT TO DO PAGE END**/
